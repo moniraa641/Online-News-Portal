@@ -1,0 +1,143 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*top Menu*/
+.top_menu{
+	background: #dadacf;
+	/*position: fixed;*/
+}
+.top_menu_item{
+	height: 36px;
+}
+.brand_top_menu{
+	font-size: 16px;
+	color: #000;
+}
+.brand_top_menu:hover{
+	color: #000;
+}
+.top_nav_ul li a{
+	color: #000;
+}
+/* top Menu-X*/
+/*menu .menu .navbar .collapse */
+.menu{
+	background: #343a40;
+}
+.menu .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.menu .search {
+	
+	/*background-color: white;*/
+	border: 1px solde red;
+}
+.menu .search button{
+	border: 2px solde white;
+	background-color: white;
+}
+/*menu-X*/
+
+/*Slider*/
+.main_slide_cover .carousel-item img{
+	width: 100%;
+	/*height: 60vh;*/
+}
+/*.main_slide_cover .carousel-item .carousel-caption = .carousel_caption_post */
+.carousel_caption_post{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+.carousel_caption_post h1{
+	/*color: gray;*/
+}
+.carousel_caption_post p{
+	/*color: #b9afaf;*/
+}
+/*Slider-X*/
+
+/*Services*/
+.service{
+	/*padding-top: 50px;*/
+}
+.service .container-fluid{
+	background: #f3f3f3;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.ser_sec_title{
+	padding-bottom: 20px;
+}
+.ser_post{
+	/*border: 1px solid gray;*/
+	padding: 7px;
+	border-radius: 2px;
+}
+.ser_post .image{
+	width: 100%;
+	height: 200px;
+	/*border: 2px solid gray;
+	border-radius: 100%;*/
+	font-size: 50px;
+	line-height: 90px;
+}
+.ser_post a .btncl{
+	background-color: red;
+}
+/*Services-X*/
+/*Portfolio*/
+.portfolio .container-fluid{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background: #f3f3f3;
+	text-align: center; 
+}
+.port_title{
+	padding-bottom: 30px;
+}
+.port_post img{
+	height: 250px;
+	width: 100%;
+}
+.port_post{
+	/*padding-bottom: 15px;*/
+	margin-bottom: 15px;
+	position: relative;
+}
+.port_post_text{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: white;
+	padding: 5px;
+	background: #00800038;
+	display: none;
+	height: 100%;
+	text-align: justify;
+}
+.port_post:hover .port_post_text{
+	display: block;
+}
+/*<!--Portfolio-X->*/
+/*admin.admindashbody*/
+.adminheader{
+	height: 120px;
+	background-color: gray;
+	color: #fff;
+}
+/*.adminheader h1{
+	margin-top: 30px;
+	color: #fff;
+}*/
+.deshbord table{
+	margin-left: 300px;
+	align-items: center;
+}
+.deshbord table tr
+{
+	height: 30px;
+	width: 50%;
+}
